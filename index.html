@@ -1,0 +1,375 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafi Dzil Dzaka Portofolio Siswa Rekayasa Perangkat Lunak</title>
+    <meta
+      name="description"
+      content="Portofolio siswa SMKN 4 Malang jurusan RPL: profil, kompetensi, proyek, prestasi, dan kontak."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- 1. NAVBAR -->
+    <header class="nav">
+      <div class="wrap navbar">
+        <a class="brand" href="#beranda">Rafi Dzil Dzaka</a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <ul class="menu" id="menu">
+          <li><a href="#beranda">Beranda</a></li>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#kompetensi">Kompetensi</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#prestasi">Prestasi</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <!-- 2. HERO -->
+      <section class="hero" id="beranda">
+        <div class="wrap">
+          <div class="hero-text">
+            <span class="status" style="--i: 0">Siswa kelas X RPL A</span>
+            <h1 style="--i: 1">Rafi Dzil Dzaka</h1>
+            <p class="lead" style="--i: 2">
+              Siswa Rekayasa Perangkat Lunak di SMKN 4 Malang. Saya suka
+              membangun website dan sedang mendalami cyber security serta
+              analisis data.
+            </p>
+            <p class="actions" style="--i: 3">
+              <a class="btn primary" href="#proyek">Lihat proyek</a>
+              <a class="btn" href="#kontak">Hubungi saya</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Kartu 3D -->
+        <div
+          class="stage"
+          id="card-stage"
+          data-name="Rafi Dzil Dzaka"
+          data-school="SMKN 4 Malang"
+          data-major="Rekayasa Perangkat Lunak"
+          data-status="Kelas X RPL A"
+          data-photo="picture.jpg"
+          data-email="zakzn4y@email.com"
+          data-wa="+62 897-7715-725"
+        >
+          <div class="flat-card" aria-hidden="true">
+            <b>Rafi Dzil Dzaka</b><span>Rekayasa Perangkat Lunak</span>
+          </div>
+          <button class="flip" type="button">Balik kartu</button>
+        </div>
+      </section>
+
+      <!-- 3. TENTANG SAYA -->
+      <section id="tentang">
+        <div class="wrap">
+          <h2>Tentang saya</h2>
+          <div class="about">
+            <div class="prose">
+              <p>
+                Saya bersekolah di SMKN 4 Malang, jurusan Rekayasa Perangkat
+                Lunak (RPL). Di sana saya belajar dasar-dasar pemrograman,
+                membangun website, merancang antarmuka, dan mengelola basis
+                data.
+              </p>
+              <p>
+                Yang paling saya sukai adalah membuat sesuatu yang bisa langsung
+                dipakai orang, mulai dari halaman web sederhana sampai aplikasi
+                kecil. Belakangan saya juga mulai tertarik pada cyber security
+                dan pengolahan data.
+              </p>
+              <p>
+                Setelah lulus, saya ingin bekerja sebagai cyber security atau
+                data analyst, sambil terus mengasah kemampuan pemrograman dan
+                desain.
+              </p>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Sekolah</dt>
+                <dd>SMKN 4 Malang</dd>
+              </div>
+              <div>
+                <dt>Jurusan</dt>
+                <dd>Rekayasa Perangkat Lunak (RPL)</dd>
+              </div>
+              <div>
+                <dt>Kelas</dt>
+                <dd>X RPL A</dd>
+              </div>
+              <div>
+                <dt>Minat terbesar</dt>
+                <dd>Cyber security dan analisis data</dd>
+              </div>
+              <div>
+                <dt>Tujuan karier</dt>
+                <dd>Cyber security atau data analyst</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- 4. KOMPETENSI & KEAHLIAN -->
+      <section id="kompetensi">
+        <div class="wrap">
+          <h2>Kompetensi dan keahlian</h2>
+          <div class="skills">
+            <div>
+              <h3>Mata pelajaran</h3>
+              <ul class="chips">
+                <li>DDK 1</li>
+                <li>DDK 2</li>
+                <li>DDK 3</li>
+                <li>IPAS</li>
+                <li>B Inggris</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Tools dan software</h3>
+              <ul class="meters">
+                <li>
+                  Figma
+                  <div class="bar"><i style="--v: 90%"></i></div>
+                </li>
+                <li>
+                  HTML, CSS, JavaScript
+                  <div class="bar"><i style="--v: 80%"></i></div>
+                </li>
+                <li>
+                  Python
+                  <div class="bar"><i style="--v: 70%"></i></div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 5. PROYEK & KARYA -->
+      <section id="proyek">
+        <div class="wrap">
+          <h2>Proyek dan karya</h2>
+          <div class="filter" role="group" aria-label="Filter proyek">
+            <button type="button" data-f="all" aria-pressed="true">
+              Semua
+            </button>
+            <button type="button" data-f="Tugas sekolah" aria-pressed="false">
+              Tugas sekolah
+            </button>
+            <button type="button" data-f="Mandiri" aria-pressed="false">
+              Mandiri
+            </button>
+          </div>
+          <div class="grid">
+            <article class="project" data-type="Mandiri">
+              <div class="img" style="--c1: #2b63c4">
+                <img src="proyek-1.png" alt="Web" />
+              </div>
+              <div class="body">
+                <p class="type">Mandiri</p>
+                <h3>Website Portofolio</h3>
+                <p>
+                  Website portofolio pertama saya dengan HTML, CSS, JSS dengan
+                  visualisasi yang menarik.
+                </p>
+                <a href="#">Lihat detail</a>
+              </div>
+            </article>
+            <article class="project" data-type="Tugas sekolah">
+              <div class="img" style="--c1: #0f8a7a">
+                <img src="proyek-3.png" alt="" />
+              </div>
+              <div class="body">
+                <p class="type">Tugas sekolah</p>
+                <h3>Desain Desktop</h3>
+                <p>
+                  Desain desktop & mobile di figma tentang product customize
+                  interface.
+                </p>
+                <a href="#">Lihat detail</a>
+              </div>
+            </article>
+            <article class="project" data-type="Mandiri">
+              <div class="img" style="--c1: #b8561f">
+                <img src="proyek-2.png" alt="" />
+              </div>
+              <div class="body">
+                <p class="type">Mandiri</p>
+                <h3>Desain Website Seni Budaya</h3>
+                <p>
+                  Merancang website tentang penjelasan seni budaya dan juga bisa memulai quiz untuk latihan.
+                </p>
+                <a href="#">Lihat detail</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. PRESTASI & KEGIATAN -->
+      <section id="prestasi">
+        <div class="wrap">
+          <h2>Prestasi dan kegiatan</h2>
+          <ol class="log">
+            <li>
+              <span class="yr">2029</span>
+              <div>
+                <b>Calon Cyber Security</b
+                ><span>Target karier di bidang keamanan siber</span>
+              </div>
+            </li>
+            <li>
+              <span class="yr">2026</span>
+              <div>
+                <b>Calon Ketua PDD OSIS SMKN 4 Malang</b
+                ><span>Divisi Publikasi, Dokumentasi, dan Desain</span>
+              </div>
+            </li>
+            <li>
+              <span class="yr">2025</span>
+              <div>
+                <b>Ketua PDD OSIS SMP</b
+                ><span>Memimpin divisi publikasi, dokumentasi, dan desain</span>
+              </div>
+            </li>
+            <li>
+              <span class="yr">2024</span>
+              <div>
+                <b>Anggota OSIS</b
+                ><span>Mulai aktif di organisasi sekolah</span>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- 7. KONTAK -->
+      <section id="kontak">
+        <div class="wrap">
+          <div class="contact-card">
+            <h2>Hubungi Saya</h2>
+            <p class="lead">
+              Feel free to reach out if you want to collaborate, discuss ideas,
+              or simply say hello.
+            </p>
+
+            <form class="contact-form" id="contact-form">
+              <label class="field">
+                <span class="field-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <circle cx="12" cy="8" r="3.5" />
+                    <path d="M4.5 20c.8-3.6 3.8-5.5 7.5-5.5s6.7 1.9 7.5 5.5" />
+                  </svg>
+                </span>
+                <span class="sr-only">Nama</span>
+                <input
+                  type="text"
+                  name="nama"
+                  placeholder="Your Name"
+                  autocomplete="name"
+                  required
+                />
+              </label>
+
+              <label class="field">
+                <span class="field-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <rect x="3" y="5" width="18" height="14" rx="2.5" />
+                    <path d="m3.5 7 8.5 6 8.5-6" />
+                  </svg>
+                </span>
+                <span class="sr-only">Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  autocomplete="email"
+                  required
+                />
+              </label>
+
+              <label class="field field-area">
+                <span class="field-icon" aria-hidden="true">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M20.5 12c0 4.1-3.8 7.2-8.5 7.2-1 0-2-.15-2.9-.4L4 20.5l1.3-3.2C4.2 16.1 3.5 14.1 3.5 12c0-4.1 3.8-7.2 8.5-7.2s8.5 3.1 8.5 7.2Z"
+                    />
+                  </svg>
+                </span>
+                <span class="sr-only">Pesan</span>
+                <textarea
+                  name="pesan"
+                  rows="5"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+              </label>
+
+              <button class="send" type="submit">
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M21 3 10.5 13.5" />
+                  <path d="M21 3l-6.5 18-3.9-7.6L3 9.5 21 3Z" />
+                </svg>
+                Send Message
+              </button>
+              <p class="form-note" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        © <span id="year"></span> Rafi Dzil Dzaka. Dibuat dengan HTML, CSS, dan
+        JavaScript.
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
